@@ -29,8 +29,17 @@ body{
   img{
     max-width: 90%;
   }
-
   }
+
+  @media (min-width: 391px) and (max-width:768px){
+    .principal{
+      background-image:100%;
+      width: 50%;
+    }
+    img{
+      max-width: 90%;
+    }
+    }
 
 .container{
   height: 100vh;
