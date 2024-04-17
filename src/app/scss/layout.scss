@@ -21,6 +21,16 @@ body{
   text-align: center;
 }
 
+@media (max-width: 390px){
+  .principal{
+    background-image:100%;
+    width: 100%;
+  }
+  img{
+    max-width: 90%;
+  }
+  }
+
 .container{
   height: 100vh;
   display: grid;
